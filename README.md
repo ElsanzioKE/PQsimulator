@@ -51,7 +51,7 @@ PQsimulator/
 
 ## Roadmap
 
-Phase 1: Dummy data simulation and console output - Completed  
+Phase 1: Dummy data simulation and console output -   
 Phase 2: Real-time sensor integration - Upcoming  
 Phase 3: Web dashboard with charts and metrics - Upcoming  
 Phase 4: AI/ML-powered anomaly detection - Upcoming
@@ -59,8 +59,7 @@ Phase 4: AI/ML-powered anomaly detection - Upcoming
 ## Author
 
 Elly Lesanjore  
-BSc. Electrical and Electronic Engineering  
-Chair, Coastal Region Samburu University Students Association
+BSc. Electrical and Electronic Engineering
 
 ## License
 
@@ -68,5 +67,5 @@ This project is licensed under the MIT License.
 
 ## Acknowledgements
 
-Thanks to fellow engineers, Samburu peers, OpenAI, and the supportive academic community that shaped this project.
+Thanks to fellow engineers and the supportive academic community that shaped this project.
 
