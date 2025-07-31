@@ -1,6 +1,10 @@
+'use client'
+import { useRouter } from 'next/navigation'
 import Navbar from '@/components/Navbar'
 
 export default function Home() {
+	const router = useRouter();
+
 	return (
 		<main className="min-h-screen bg-gray-100 text-gray-900">
 		<Navbar />
@@ -13,7 +17,9 @@ export default function Home() {
 		<p className="text-lg text-gray-600 max-w-xl mb-8">
 		Real-time simulation and visualization of power quality parameters
 		</p>
-		<button className="bg-blue-600 text-white px-6 py-3 rounded-xl shadow hover:bg-blue-700 transition">
+		<button
+		onClick={() => router.push('/simulator')}       
+		className="bg-blue-600 text-white px-6 py-3 rounded-xl shadow hover:bg-blue-700 transition">
 		Lauch Simulator 
 		</button>
 		</section>
